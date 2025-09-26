@@ -7,32 +7,33 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <h1>Our Menu</h1>
-
-  <div class="row">
-    <section class="col">
-      <div class="section-title chicken">Chicken</div>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-        ullamcorper velit at sapien gravida, vel imperdiet urna cursus.
-      </p>
-    </section>
-
-    <section class="col">
-      <div class="section-title beef">Beef</div>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-        elementum neque sit amet risus malesuada, sed mattis dui porta.
-      </p>
-    </section>
-
-    <section class="col">
-      <div class="section-title sushi">Sushi</div>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-        dignissim augue eget nulla dignissim, vitae fermentum lacus posuere.
-      </p>
-    </section>
-  </div>
+  <header>
+    <h1>Our Menu</h1>
+  </header>
+  <main>
+    <div class="row">
+      <section class="col" aria-labelledby="chicken-title">
+        <h2 id="chicken-title" class="section-title chicken">Chicken</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+          ullamcorper velit at sapien gravida, vel imperdiet urna cursus.
+        </p>
+      </section>
+      <section class="col" aria-labelledby="beef-title">
+        <h2 id="beef-title" class="section-title beef">Beef</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+          elementum neque sit amet risus malesuada, sed mattis dui porta.
+        </p>
+      </section>
+      <section class="col" aria-labelledby="sushi-title">
+        <h2 id="sushi-title" class="section-title sushi">Sushi</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+          dignissim augue eget nulla dignissim, vitae fermentum lacus posuere.
+        </p>
+      </section>
+    </div>
+  </main>
 </body>
 </html>
